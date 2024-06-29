@@ -1,0 +1,101 @@
+.content {
+  h1 {
+    @apply text-4xl font-bold mb-4;
+  }
+
+  h2 {
+    @apply text-3xl font-bold mb-4;
+  }
+
+  h3 {
+    @apply text-2xl font-bold mb-4;
+  }
+
+  h4 {
+    @apply text-xl font-bold mb-4;
+  }
+
+  h5 {
+    @apply text-lg font-bold mb-4;
+  }
+
+  h6 {
+    @apply text-base font-bold mb-4;
+  }
+
+  p {
+    @apply text-base mb-4;
+  }
+
+  strong {
+    @apply font-bold;
+  }
+
+  em {
+    @apply italic;
+  }
+
+  u {
+    @apply underline;
+  }
+
+  strike {
+    @apply line-through;
+  }
+
+  a {
+    @apply text-blue-500;
+
+    &:hover {
+      @apply text-blue-700;
+    }
+  }
+
+  ul {
+    @apply list-disc pl-4;
+  }
+
+  ol {
+    @apply list-decimal pl-4;
+  }
+
+  li {
+    @apply text-base mb-2;
+  }
+
+  blockquote {
+    @apply border-l-4 border-gray-300 pl-4 italic;
+  }
+
+  code {
+    @apply bg-gray-100 dark:bg-content1 px-2 py-1 rounded;
+  }
+
+  pre {
+    @apply bg-gray-100 dark:bg-content1 p-4 rounded;
+  }
+
+  img {
+    @apply mx-auto my-4;
+  }
+
+  table {
+    @apply w-full border-collapse border border-gray-300;
+  }
+
+  th, td {
+    @apply border border-gray-300 p-2;
+  }
+
+  th {
+    @apply bg-gray-100;
+  }
+
+  tr:nth-child(even) {
+    @apply bg-gray-100;
+  }
+
+  tr:hover {
+    @apply bg-gray-200;
+  }
+}
